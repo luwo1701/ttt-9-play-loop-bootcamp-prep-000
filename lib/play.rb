@@ -37,5 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  numTurns=0
-  turn(board)  
+  for i in 0..8
+    turn(board) 
+  end
+end
